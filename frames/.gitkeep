@@ -1,0 +1,2 @@
+# This file ensures the /frames directory is tracked by Git
+# Extracted video frames will be stored here during processing
