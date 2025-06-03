@@ -1,0 +1,57 @@
+{
+  "video_id": "2025-05-27_13-46-16_UTC",
+  "video_path": "videos/2025-05-27_13-46-16_UTC.mp4",
+  "processing_timestamp": "2025-01-27T10:32:00Z",
+  "vibes": [
+    "Boho",
+    "Cottagecore",
+    "Clean Girl"
+  ],
+  "detected_products": [
+    {
+      "type": "dress",
+      "color": "floral",
+      "matched_product_id": 15001,
+      "match_type": "exact",
+      "confidence": 0.912,
+      "similar_products": [
+        {"product_id": 15001, "similarity": 0.912},
+        {"product_id": 15002, "similarity": 0.887},
+        {"product_id": 15003, "similarity": 0.834}
+      ]
+    },
+    {
+      "type": "accessory",
+      "color": "brown",
+      "matched_product_id": 15012,
+      "match_type": "similar",
+      "confidence": 0.778,
+      "similar_products": [
+        {"product_id": 15012, "similarity": 0.778},
+        {"product_id": 15013, "similarity": 0.765},
+        {"product_id": 15014, "similarity": 0.751}
+      ]
+    },
+    {
+      "type": "shoes",
+      "color": "beige",
+      "matched_product_id": 15025,
+      "match_type": "similar",
+      "confidence": 0.803,
+      "similar_products": [
+        {"product_id": 15025, "similarity": 0.803},
+        {"product_id": 15026, "similarity": 0.789},
+        {"product_id": 15027, "similarity": 0.772}
+      ]
+    }
+  ],
+  "metadata": {
+    "total_frames_processed": 18,
+    "processing_time_seconds": 14.7,
+    "models_used": {
+      "object_detection": "yolov8n.pt",
+      "image_embedding": "openai/clip-vit-base-patch32",
+      "text_processing": "distilbert-base-uncased"
+    }
+  }
+}

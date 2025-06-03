@@ -1,0 +1,112 @@
+{
+  "pipeline_info": {
+    "total_videos": 6,
+    "total_frames": 87,
+    "total_persons": 87,
+    "total_items": 209,
+    "total_vibes": 5,
+    "total_products": 1,
+    "videos_with_detections": 5,
+    "setup_time_seconds": 0.07,
+    "processing_time_seconds": 112.37,
+    "average_time_per_video": 18.73
+  },
+  "results": {
+    "2025-05-22_08-25-12_UTC": {
+      "video_id": "2025-05-22_08-25-12_UTC",
+      "vibes": [],
+      "products": [],
+      "metadata": {
+        "frames_processed": 15,
+        "items_detected": 0,
+        "persons_detected": 0,
+        "products_matched": 0,
+        "final_products": 0,
+        "has_metadata": true
+      }
+    },
+    "2025-05-27_13-46-16_UTC": {
+      "video_id": "2025-05-27_13-46-16_UTC",
+      "vibes": [
+        "Cottagecore"
+      ],
+      "products": [],
+      "metadata": {
+        "frames_processed": 15,
+        "items_detected": 38,
+        "persons_detected": 16,
+        "products_matched": 0,
+        "final_products": 0,
+        "has_metadata": true
+      }
+    },
+    "2025-05-28_13-40-09_UTC": {
+      "video_id": "2025-05-28_13-40-09_UTC",
+      "vibes": [
+        "Cottagecore"
+      ],
+      "products": [],
+      "metadata": {
+        "frames_processed": 13,
+        "items_detected": 45,
+        "persons_detected": 18,
+        "products_matched": 0,
+        "final_products": 0,
+        "has_metadata": true
+      }
+    },
+    "2025-05-28_13-42-32_UTC": {
+      "video_id": "2025-05-28_13-42-32_UTC",
+      "vibes": [
+        "Party Glam"
+      ],
+      "products": [],
+      "metadata": {
+        "frames_processed": 15,
+        "items_detected": 42,
+        "persons_detected": 17,
+        "products_matched": 0,
+        "final_products": 0,
+        "has_metadata": true
+      }
+    },
+    "2025-05-31_14-01-37_UTC": {
+      "video_id": "2025-05-31_14-01-37_UTC",
+      "vibes": [
+        "Cottagecore"
+      ],
+      "products": [
+        {
+          "type": "dress",
+          "color": "white",
+          "matched_product_id": "14999",
+          "match_type": "similar",
+          "confidence": 0.752
+        }
+      ],
+      "metadata": {
+        "frames_processed": 14,
+        "items_detected": 43,
+        "persons_detected": 16,
+        "products_matched": 1,
+        "final_products": 1,
+        "has_metadata": true
+      }
+    },
+    "2025-06-02_11-31-19_UTC": {
+      "video_id": "2025-06-02_11-31-19_UTC",
+      "vibes": [
+        "Coquette"
+      ],
+      "products": [],
+      "metadata": {
+        "frames_processed": 15,
+        "items_detected": 41,
+        "persons_detected": 20,
+        "products_matched": 0,
+        "final_products": 0,
+        "has_metadata": true
+      }
+    }
+  }
+}

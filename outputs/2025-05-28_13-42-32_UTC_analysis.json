@@ -1,0 +1,15 @@
+{
+  "video_id": "2025-05-28_13-42-32_UTC",
+  "vibes": [
+    "Party Glam"
+  ],
+  "products": [],
+  "metadata": {
+    "frames_processed": 15,
+    "items_detected": 42,
+    "persons_detected": 17,
+    "products_matched": 0,
+    "final_products": 0,
+    "has_metadata": true
+  }
+}

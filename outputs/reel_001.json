@@ -1,0 +1,44 @@
+{
+  "video_id": "2025-05-22_08-25-12_UTC",
+  "video_path": "videos/2025-05-22_08-25-12_UTC.mp4",
+  "processing_timestamp": "2025-01-27T10:30:00Z",
+  "vibes": [
+    "Clean Girl",
+    "Streetcore"
+  ],
+  "detected_products": [
+    {
+      "type": "top",
+      "color": "white",
+      "matched_product_id": 14976,
+      "match_type": "similar",
+      "confidence": 0.823,
+      "similar_products": [
+        {"product_id": 14976, "similarity": 0.823},
+        {"product_id": 14977, "similarity": 0.789},
+        {"product_id": 14982, "similarity": 0.756}
+      ]
+    },
+    {
+      "type": "bottom",
+      "color": "blue",
+      "matched_product_id": 14989,
+      "match_type": "similar",
+      "confidence": 0.791,
+      "similar_products": [
+        {"product_id": 14989, "similarity": 0.791},
+        {"product_id": 14990, "similarity": 0.773},
+        {"product_id": 14994, "similarity": 0.762}
+      ]
+    }
+  ],
+  "metadata": {
+    "total_frames_processed": 15,
+    "processing_time_seconds": 12.4,
+    "models_used": {
+      "object_detection": "yolov8n.pt",
+      "image_embedding": "openai/clip-vit-base-patch32",
+      "text_processing": "distilbert-base-uncased"
+    }
+  }
+}

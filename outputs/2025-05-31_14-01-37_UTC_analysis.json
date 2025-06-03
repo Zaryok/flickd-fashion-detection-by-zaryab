@@ -1,0 +1,23 @@
+{
+  "video_id": "2025-05-31_14-01-37_UTC",
+  "vibes": [
+    "Cottagecore"
+  ],
+  "products": [
+    {
+      "type": "dress",
+      "color": "white",
+      "matched_product_id": "14999",
+      "match_type": "similar",
+      "confidence": 0.752
+    }
+  ],
+  "metadata": {
+    "frames_processed": 14,
+    "items_detected": 43,
+    "persons_detected": 16,
+    "products_matched": 1,
+    "final_products": 1,
+    "has_metadata": true
+  }
+}

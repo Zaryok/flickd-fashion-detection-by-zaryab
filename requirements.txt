@@ -1,0 +1,40 @@
+# Flickd Fashion Analysis Pipeline - Complete Dependencies
+#
+# This file contains all required packages for the Flickd AI Hackathon submission
+# Install with: pip install -r requirements.txt
+#
+
+# Core ML and Deep Learning Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+
+# Computer Vision and Object Detection
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Data Processing and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Similarity Search and Vector Operations
+faiss-cpu>=1.7.0
+
+# Natural Language Processing
+spacy>=3.6.0
+
+# Web Requests and Data Download
+requests>=2.31.0
+
+# Progress Bars and Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Additional utilities for robust operation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Note: After installation, run this command for better NLP support:
+# python -m spacy download en_core_web_sm
